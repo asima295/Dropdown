@@ -1,0 +1,22 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:gray;
+    min-width: 260px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+   
+  }
+  
+     
